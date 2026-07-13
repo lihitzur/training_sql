@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS per_capita_energy_report;
+
+CREATE TABLE per_capita_energy_report AS
 SELECT
     d.iso_code,
     d.location,
